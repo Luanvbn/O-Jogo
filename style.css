@@ -20,6 +20,7 @@ h1 {
 }
 h2{
     color: gray;
+    margin-bottom: 1%;
 }
 h4{
     position: relative;
@@ -29,4 +30,14 @@ h4{
 
 body{
     background-color: rgb(243, 243, 243);
+}
+
+table, tr{
+    position: relative;
+    margin-left: 44%;
+    bottom: 250px;
+    left: 15px;
+}
+table tr, td{
+    text-align: center;
 }

@@ -19,6 +19,48 @@
             <input type="submit" value="Salvar" id="salvar" name="salvar">
         </form>
     </div>
+    <table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    
+  </tr>
+</table>
 </body>
 
 </html>
