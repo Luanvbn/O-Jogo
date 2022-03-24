@@ -11,14 +11,21 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: 100%;
-    height: 55vh;
+    width: 95%;
+    height: 35vh;
+}
+.idNome{
+    position: relative;
+    margin-left: 42%;
+    bottom: 260px;
+    left: 70px;
+    text-align: center;
 }
 
 h1 {
     font-size: 100px;
     padding-top: 10%;
-    padding-bottom: 2%;
+    padding-bottom: 0%;
 }
 h2 {
     color: gray;
@@ -39,20 +46,27 @@ tr {
     position: relative;
     margin-left: 42%;
     bottom: 260px;
-    left: 60px;
+    left: 15px;
     text-align: center;
 }
 table,
 td {
     position: relative;
     top: 10px;
-    left: -65px;
+    left: -10px;
     text-align: center;
 }
 .formulario {
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: 100%;
-    height: 280px;
+    width: 96%;
+    height: 265px; 
+}
+.Total{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 95%;
+    
 }

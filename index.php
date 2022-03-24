@@ -1,7 +1,7 @@
 <?php
 $Nome = $_POST['nome'];
 
-$idprim = 2;
+$idprim = [1, 2, 3, 4, 5, 6, 7, 8];
 
 ?>
 <!DOCTYPE html>
@@ -23,54 +23,42 @@ $idprim = 2;
 
     <div class="formulario">
     <form action="" method="POST">
-            <label><input type="text" name="nome" placeholder="Seu nome" maxlength="10" id="nome"></label>
-            <input type="submit" value="Salvar" id="salvar" name="salvar">
-        </form>
+        <label>
+          <input type="text" name="nome" placeholder="Seu nome" maxlength="10" id="nome">
+        </label>
+        <input type="submit" value="Salvar" id="salvar" name="salvar">
+    </form>
     </div>
     <table>
   <tr>
     <th>Nome dos ultimos perdedores</th>
-    
   </tr>
   <tr>
-    <td><?php echo $idprim;?></td>
     <td><?php echo $Nome;?></td>
   </tr>
   <tr>
-    <td><?php echo $idprim;?></td>
     <td><?php echo $Nome;?></td>
   </tr>
   <tr>
-    <td><?php echo $idprim;?></td>
     <td><?php echo $Nome;?></td>
   </tr>
   <tr>
-    <td><?php echo $idprim;?></td>
     <td><?php echo $Nome;?></td>
   </tr>
   <tr>
-    <td><?php echo $idprim;?></td>
     <td><?php echo $Nome;?></td>
   </tr>
   <tr>
-    <td><?php echo $idprim;?></td>
     <td><?php echo $Nome;?></td>
   </tr>
   <tr>
-    <td><?php echo $idprim;?></td>
     <td><?php echo $Nome;?></td>
-    
   </tr>
+
+  <div class="Total">
+  <p>Total de perdedores: <b><?php echo 100;?></b></p>
+  </div>
 </table>
 </body>
 
 </html>
-<?php
-
-$nome = $_POST['nome'];
-$con = mysqli_connect("localhost", "root", "", "banco_teste");
-$query="INSERT INTO nome VALUES('','$nome')";
-
-mysqli_query($con, $query);
-mysqli_close($con);
-?>
